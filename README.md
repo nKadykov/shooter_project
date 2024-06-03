@@ -32,25 +32,37 @@ Game Over
 - Нажмите клавишу Tab для выхода в меню.
 
 # Требования
-1. Скачать и установить vcpkg:</br>
-git clone https://github.com/microsoft/vcpkg.git </br>
-cd vcpkg </br>
-bootstrap-vcpkg.bat </br>
+1. Скачать и установить vcpkg:
+```markdown
+git clone https://github.com/microsoft/vcpkg.git
+cd vcpkg
+bootstrap-vcpkg.bat
 vcpkg integrate install
+```
 
-2. Скачать и установить CMake
+3. Скачать и установить CMake
 
-3. Скачать SFML:</br>
+4. Скачать SFML:
+```markdown
 vcpkg install sfml:x64-windows
+```
 
-4. Клонировать репозиторий:</br>
+6. Клонировать репозиторий:
+```markdown
 git clone https://github.com/nKadykov/shooter_project.git
+```
 
-5. Создать папку с проектом:</br>
-mkdir build</br>
+8. Создать папку с проектом:
+```markdown
+mkdir build
 cd build
+```
 
-6. Собрать проект:</br>
-cmake .. -DCMAKE_TOOLCHAIN_FILE=C:/path/to/vcpkg/scripts/buildsystems/vcpkg.cmake</br>
-Заменить C:/path/to/vcpkg на путь к vcpkg</br>
+10. Собрать проект:
+```markdown
+cmake .. -DCMAKE_TOOLCHAIN_FILE=C:/path/to/vcpkg/scripts/buildsystems/vcpkg.cmake
+```
+Заменить C:/path/to/vcpkg на путь к vcpkg
+```markdown
 cmake --build
+```
