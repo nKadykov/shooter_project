@@ -3,13 +3,13 @@
 Игра Shooter, написанная на С++ с использованием библиотеки SFML.
 
 Меню
-![screenshot](Screenshots/Menu.jpg)
+![screenshot](sreenshot/Menu.jpg)
 
 Игра
-![screenshot](Screenshots/Game.jpg)
+![screenshot](screenshot/Game.jpg)
 
 Game Over
-![screenshot](Screenshots/GameOver.jpg)
+![screenshot](screenshot/GameOver.jpg)
 
 # Управление
 
