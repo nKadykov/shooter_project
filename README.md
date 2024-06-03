@@ -31,11 +31,6 @@ Game Over
 - Нажмите кнопку Start New Game для перезапуска игры.
 - Нажмите клавишу Tab для выхода в меню.
 
-
-# Требования
-# Проект с использованием CMAKE и библиотеки SFML
-Проект с использованием CMake и vcpkg с библиотекой SFML.
-
 # Требования
 1. Скачать и установить vcpkg:</br>
 git clone https://github.com/microsoft/vcpkg.git </br>
