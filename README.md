@@ -3,7 +3,7 @@
 Игра Shooter, написанная на С++ с использованием библиотеки SFML.
 
 Меню
-![screenshot](sreenshot/Menu.jpg)
+![screenshot](screenshot/Menu.jpg)
 
 Игра
 ![screenshot](screenshot/Game.jpg)
