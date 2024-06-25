@@ -4,7 +4,7 @@ project(shooter_project)
 set(CMAKE_TOOLCHAIN_FILE "C:/vcpkg/scripts/buildsystems/vcpkg.cmake")
 
 set(CMAKE_CXX_STANDART 23)
-set(CMAKE_CXX_STANDARRT_REQUIRED ON)
+set(CMAKE_CXX_STANDART_REQUIRED ON)
 
 set(ASSETS_FOLDER ${CMAKE_SOURCE_DIR}/assets)
 if(WIN32)
