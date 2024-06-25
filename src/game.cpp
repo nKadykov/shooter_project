@@ -9,7 +9,7 @@ Game::Game() {
     m_game_state = GameState::ON;
 
     m_score = 0;
-    if (!m_font.loadFromFile("assets/ImpactRegular.ttf")) {
+    if (!m_font.loadFromFile("assets/impactregular.ttf")) {
         exit(1);
     }
     m_text_score.setFont(m_font);
