@@ -1,5 +1,6 @@
 #pragma once
-#include <SFML/graphics.hpp>
+#include <memory>
+#include <SFML/Graphics.hpp>
 
 class Player
 {

@@ -1,6 +1,9 @@
 cmake_minimum_required(VERSION 3.10)
 project(shooter_project)
 
+set(CMAKE_CXX_STANDART 23)
+set(CMAKE_CXX_STANDARRT_REQUIRED ON)
+
 set(CMAKE_TOOLCHAIN_FILE "C:/vcpkg/scripts/buildsystems/vcpkg.cmake")
 
 include_directories(include)

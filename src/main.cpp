@@ -2,6 +2,7 @@
 #include "game.h"
 #include "menu.h"
 #include "gameoverwindow.h"
+#include <memory>
 #include <iostream>
 
 enum class State { GAME, MENU, GAME_OVER };
