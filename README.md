@@ -44,7 +44,7 @@ vcpkg integrate install
 
 4. Скачать SFML:
 ```markdown
-vcpkg install sfml:x64-windows
+vcpkg install sfml
 ```
 
 6. Клонировать репозиторий:
