@@ -7,7 +7,11 @@ set(CMAKE_CXX_STANDART 23)
 set(CMAKE_CXX_STANDARRT_REQUIRED ON)
 
 set(ASSETS_FOLDER ${CMAKE_SOURCE_DIR}/assets)
-set(ASSETS_OUTPUT_DIR Release/assets)
+if(WIN32)
+    set(ASSETS_OUTPUT_DIR Release/assets)
+else()
+    set(ASSETS_OUTPUT_DIR assets)
+endif()
 
 include_directories(include)
 
